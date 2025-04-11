@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc6a416-e788-4ba0-8726-cf8850504781" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_2/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="6fc6a416-e788-4ba0-8726-cf8850504781" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "disable.download.node.interpreter.editor.notification": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1744266820172</updated>
       <workItem from="1744266821257" duration="6077000" />
-      <workItem from="1744277916263" duration="2686000" />
+      <workItem from="1744277916263" duration="2999000" />
     </task>
     <servers />
   </component>
