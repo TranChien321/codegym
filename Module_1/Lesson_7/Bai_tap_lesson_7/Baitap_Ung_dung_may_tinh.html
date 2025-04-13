@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy Tinh</title>
+</head>
+<body>
+<!--Máy tính-->
+<form>
+    <table>
+        <tr>
+            <th colspan="2">
+            <input type="number" id="number1" value="0">
+            </th>
+            <th colspan="2">
+            <input type="number" id="number2" value="0">
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="plus()">Dấu cộng (+)</button>
+            </td>
+            <td>
+                <button onclick="minus()">Dấu trừ (-)</button>
+            </td>
+            <td>
+                <button onclick="multiplication()"> Dấu nhân (*)</button>
+            </td>
+            <td>
+                <button onclick="division()"> Dấu chia (/)</button>
+            </td>
+        </tr>
+        <tr>
+            <td> Result </td>
+        </tr>
+    </table>
+    <p id="result"> Đây là kết quả phép tính:</p>
+</form>
+
+<!--Javascript-->
+<script>
+    function plus() {
+        var a = +document.getElementById("number1").value;
+        var b = +document.getElementById("number2").value;
+        var plus = a+b;
+
+        document.getElementById("result").innerHTML = plus;
+    }
+    function minus() {
+        var a = +document.getElementById("number1").value;
+        var b = +document.getElementById("number2").value;
+        var minus = a-b;
+        document.getElementById("result").innerHTML = minus;
+    }
+    function multiplication() {
+        var a = +document.getElementById("number1").value;
+        var b = +document.getElementById("number2").value;
+        var multiplication = a*b;
+        document.getElementById("result").innerHTML = multiplication;
+    }
+    function division() {
+        var a = +document.getElementById("number1").value;
+        var b = +document.getElementById("number2").value;
+        var division = a/b;
+        document.getElementById("result").innerHTML = division;
+    }
+</script>
+</body>
+</html>

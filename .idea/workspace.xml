@@ -51,8 +51,11 @@
     "RunOnceActivity.git.unshallow": "true",
     "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "main",
+<<<<<<< HEAD
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/ADMIN/WebstormProjects/codegym",
+=======
+>>>>>>> 827aef85f96227b9030ad98b8760c004478d54fb
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +66,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Module_1/Lesson_7/Bai_tap_lesson_7/Baitap_Bien_Kieu_Du_Lieu" />
+      <recent name="$PROJECT_DIR$/Module_1/Lesson_7/Thuc_hanh_lesson_7" />
       <recent name="$PROJECT_DIR$/Module_1/Lesson_6/Bai_tap_javascrip" />
     </key>
   </component>
@@ -82,8 +87,12 @@
       <option name="presentableId" value="Default" />
       <updated>1744266820172</updated>
       <workItem from="1744266821257" duration="6077000" />
+<<<<<<< HEAD
       <workItem from="1744277916263" duration="1254000" />
       <workItem from="1744293225370" duration="1399000" />
+=======
+      <workItem from="1744277916263" duration="25401000" />
+>>>>>>> 827aef85f96227b9030ad98b8760c004478d54fb
     </task>
     <servers />
   </component>
