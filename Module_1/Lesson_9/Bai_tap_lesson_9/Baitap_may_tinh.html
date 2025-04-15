@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <th colspan="4">
+                <label for="spreadsheet"></label><input type="number" id="spreadsheet">
+            </th>
+        </tr>
+        <tr>
+            <td> <button type="button" value="1" onclick="inputNumber(value)" > 1 </button> </td>
+            <td> <button type="button" value="2" onclick="inputNumber(value)" > 2 </button> </td>
+            <td> <button type="button" value="3" onclick="inputNumber(value)" > 3 </button> </td>
+            <td> <button type="button" value="+" onclick="inputAllowable(value)" > + </button> </td>
+        </tr>
+        <tr>
+            <td> <button type="button" value="4" onclick="inputNumber(value)" > 4 </button> </td>
+            <td> <button type="button" value="5" onclick="inputNumber(value)" > 5 </button> </td>
+            <td> <button type="button" value="6" onclick="inputNumber(value)" > 6 </button> </td>
+            <td> <button type="button" value="-" onclick="inputAllowable(value)" > - </button> </td>
+        </tr>
+        <tr>
+            <td> <button type="button" value="7" onclick="inputNumber(value)" > 7 </button> </td>
+            <td> <button type="button" value="8" onclick="inputNumber(value)" > 8 </button> </td>
+            <td> <button type="button" value="9" onclick="inputNumber(value)" > 9 </button> </td>
+            <td> <button type="button" value="*" onclick="inputAllowable()" > * </button> </td>
+        </tr>
+        <tr>
+            <td> <button type="reset" value="Reset" onclick="deLete()"> C </button> </td>
+            <td> <button type="button" value="0" onclick="inputNumber(value)" > 0 </button> </td>
+            <td> <button type="button" value="" onclick="inputAllowable()" > = </button> </td>
+            <td> <button type="button" value="/" onclick="inputAllowable(value)"> / </button> </td>
+        </tr>
+    </table>
+</form>
+<script>
+
+    function inputNumber(value) {
+        document.getElementById("spreadsheet").value += value;
+    }
+    function inputAllowable(value) {
+        document.getElementById("spreadsheet").value += value;
+    }
+    function deLete() {
+        document.getElementById("spreadsheet").value = "";
+    }
+
+</script>
+
+</body>
+</html>
