@@ -10,7 +10,7 @@
     <table>
         <tr>
             <th colspan="4">
-                <label for="spreadsheet"></label><input type="number" id="spreadsheet">
+                <label for="spreadsheet"></label><input type="text" id="spreadsheet">
             </th>
         </tr>
         <tr>
@@ -29,12 +29,12 @@
             <td> <button type="button" value="7" onclick="inputNumber(value)" > 7 </button> </td>
             <td> <button type="button" value="8" onclick="inputNumber(value)" > 8 </button> </td>
             <td> <button type="button" value="9" onclick="inputNumber(value)" > 9 </button> </td>
-            <td> <button type="button" value="*" onclick="inputAllowable()" > * </button> </td>
+            <td> <button type="button" value="*" onclick="inputAllowable(value)" > * </button> </td>
         </tr>
         <tr>
             <td> <button type="reset" value="Reset" onclick="deLete()"> C </button> </td>
             <td> <button type="button" value="0" onclick="inputNumber(value)" > 0 </button> </td>
-            <td> <button type="button" value="" onclick="inputAllowable()" > = </button> </td>
+            <td> <button type="button" id="total" onclick="result()" > = </button> </td>
             <td> <button type="button" value="/" onclick="inputAllowable(value)"> / </button> </td>
         </tr>
     </table>
