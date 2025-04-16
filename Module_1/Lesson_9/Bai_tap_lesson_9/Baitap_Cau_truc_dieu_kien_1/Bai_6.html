@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Tính hoa hồng nhận được dựa trên mức doanh số bán hàng-->
+
+<script>
+    let saleVolume= parseInt(prompt(" Nhập doanh số bán được trong tháng này "))
+    let levelOne = saleVolume* 5/100;
+    let levelTwo = saleVolume* 7/100;
+    let levelThree = saleVolume* 10/100;
+
+    if (saleVolume >500000) {
+      document.write("Hoa hồng bạn nhận được trong tháng này " + levelOne + "VND");
+    } else if (saleVolume >2000000) {
+        document.write("Hoa hồng bạn nhận được trong tháng này " + levelTwo + "VND");
+    } else if (saleVolume >10000000) {
+        document.write("Hoa hồng bạn nhận được trong tháng này " + levelThree + "VND");
+    } else {
+        document.write("Doanh số không đạt yêu cầu");
+    }
+
+</script>
+</body>
+</html>

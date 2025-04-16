@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #btn {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<h1> Do you love me </h1>
+<button type="button" id = "bty" onclick="changeBty()"> yes </button>
+<button type="button" id = "btn" onmouseover="changeBtn()" > no </button>
+
+<script>
+    function changeBtn() {
+        let btn = document.getElementById("btn");
+        let numberLeftRandom = Math.floor(Math.random() * (1000 - 100) +100); //
+        let numberRandom = Math.floor(Math.random() * (400 - 100) +100);
+        btn.style.left = numberLeftRandom + "px";
+        btn.style.top = numberRandom + "px";
+    }
+    function changeBty() {
+        alert(" Yêu ")
+    }
+</script>
+</body>
+</html>
