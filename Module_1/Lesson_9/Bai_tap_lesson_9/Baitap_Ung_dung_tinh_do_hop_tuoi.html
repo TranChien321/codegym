@@ -3,23 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Ứng dụng tính độ hợp tuổi</title>
+
 </head>
 <body>
 <form>
     <table>
         <tr>
             <th></th>
-            <th>Kiểm Tra Độ Hợp Khắc Của Tuổi</th>
+            <th colspan="2">Kiểm Tra Độ Hợp Khắc Của Tuổi</th>
             <th></th>
         </tr>
         <tr>
-            <td> Bạn Nam </td>
-            <td> </td>
-            <td> Bạn Nữ </td>
+            <td>  </td>
+            <td> Bạn Nam</td>
+            <td> Bạn Nữ</td>
+            <td>  </td>
         </tr>
-        <t
+        <tr>
+            <td> Họ và tên </td>
+            <td><input type="text" id="nameMale"> </td>
+            <td> <input type="text" id="nameFemale"></label></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td> Tuổi </td>
+            <td> <input type="number" id="ageMale"></td>
+            <td> <input type="number" id="ageFemale"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td> Ngày sinh </td>
+            <td> <input type="date" id= "birthdayMale" value="month"> </td>
+            <td> <input type="date" id= "birthdayFemale" value="month"> </td>
+            <td></td>
+        </tr>
+        <td></td>
+        <td><button type="button" onclick="search()">Kiểm Tra</button> </td>
     </table>
+    <p id="resultMale"> Kết quả hiển thị ở đây</p>
+    <p id="resultFamale">Kết quả hiển thị ở đây</p>
 </form>
-
+<script src="JS/Ung_dung_tinh_do_tuoi.js"></script>
 </body>
 </html>
