@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = +prompt('Nhap so tien gui ngan hang');
+    let month = +prompt('Nhap so thang da gui');
+    let money = num;
+    let result = 0;
+    let moneyLaiThang =0 ;
+    while (isNaN(num) || isNaN(month) || num === "" || month === "" || num < 0 || month < 1 || month > 12) {
+        if(isNaN(num) || num === "" || num < 0 ){
+            alert('Ban da nhap sai so tien xin hay nhap lai.')
+            num = +prompt('Nhap lai so thang da gui');
+        }else{
+            alert('Ban da nhap sai so thang da gui vui long nhap lai.');
+            month = +prompt('Nhap lai so thang da gui');
+        }
+    }for(i=1;i<=month;i++){
+        result = money;
+        moneyLaiThang = result*55/1200;
+        money = result + moneyLaiThang;
+        document.write(`So tien tong ca goc lan lai thang thu ${i} la : ${result} vnd <br>`);
+    }
+</script>
+
+</body>
+</html>
