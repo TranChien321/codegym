@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let inputNumbersA = prompt("Nhập vào số phần tử của mảng A: ");
+    let inputNumbersB = prompt("Nhập vào số phần tử của mảng B: ");
+    let numbersA = inputNumbersA.split("");
+    let numbersB = inputNumbersB.split("");
+    for( let i = 0; i < numbersA.length; i++ ) {
+        if( numbersA[i] == numbersB[i] ) {
+            document.write("Phần tử thứ " + i + " của mảng A và B giống nhau: " + numbersA[i] + "<br>");
+        } else {
+            document.write("Phần tử thứ " + i + " của mảng A và B khác nhau: " + numbersA[i] + " và " + numbersB[i] + "<br>");
+        }
+    }
+</script>
+
+</body>
+</html>
