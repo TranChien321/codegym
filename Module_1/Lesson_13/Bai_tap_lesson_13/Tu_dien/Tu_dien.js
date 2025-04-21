@@ -12,5 +12,4 @@ function searchWords() {
             result.innerHTML = "Không tìm thấy từ này";
         }
     }
-
 }
