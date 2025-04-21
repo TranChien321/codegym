@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Tìm số lớn nhất và nhỏ nhất trong mảng- Viết một hàm nhận vào một mảng số nguyên và trả về số lớn nhất và nhỏ nhất trong mảng.-->
+<script>
+    let numbers = [3, 5, 7, 2, 8, -1, 4,100, 0, -5];
+    let max= numbers[0];
+    let min= numbers[0];
+    for ( let i=0; i < numbers.length; i++ ) {
+        if ( numbers[i] > max ) {
+            max = numbers[i];
+        }
+        if ( numbers[i] < min ) {
+            min = numbers[i];
+        }
+    }
+    document.write("Số lớn nhất trong mảng là: " + max + "<br>");
+    document.write("Số nhỏ nhất trong mảng là: " + min + "<br>");
+</script>
+
+</body>
+</html>
