@@ -5,13 +5,19 @@
     <title>Title</title>
 </head>
 <body>
-<!--Viết chương trình nhận một chuỗi số nhập vào từ người dùng và chèn dấu - giữa hai số chẵn liên tiếp trong chuỗi.?-->
+<!--Viết chương trình nhận một chuỗi số từ người dùng và chèn dấu - giữa hai số chẵn liên tiếp trong chuỗi.?-->
 <script>
-    let input = prompt("Nhập một chuỗi số:");
-    let numbers = input.split(",").map(Number);
-    let result = "";
-    console.log(numbers);
-
+let inputNumber = prompt("Nhập vào một chuỗi số");
+let result = "";
+let numbers = inputNumber.split("");
+for (let i = 0; i < numbers.length; i++) {
+    if( numbers[i] % 2 === 0 && numbers[i + 1] % 2 === 0) {
+        result += numbers[i] + "-";
+    } else {
+        result += numbers[i];
+        }
+}
+document.write(result);
 </script>
 </body>
 </html>
