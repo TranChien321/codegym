@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numbers = [1, 4, 5, 12, 51, 25, 12, 21, 2, 3];
+    let sum = 0;
+    let max = numbers[0];
+    for (let i = 0; i < numbers.length; i++) {
+        sum += numbers[i];
+        if (numbers[i] > max) {
+            max = numbers[i];
+        }
+    }
+    let averagePrice = sum / numbers.length;
+    document.write("Giá trị trung bình của các phần tử trong mảng là: " + averagePrice + "<br>");
+    document.write("Phần tử lớn nhất là: " + max + "<br>");
+
+</script>
+</body>
+</html>

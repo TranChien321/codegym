@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numbers = [1, 4, 5, 12, 51, 25, 12, 21, 2, 3];
+    let v = prompt("Enter a number");
+    let found = false;
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] == v) {
+            found = true;
+            document.write("số có trong mảng" + " " + numbers[i]);
+            break;
+        }
+    }
+    if (!found) {
+        document.write("Không tìm thấy số trong mảng");
+    }
+</script>
+
+</body>
+</html>
