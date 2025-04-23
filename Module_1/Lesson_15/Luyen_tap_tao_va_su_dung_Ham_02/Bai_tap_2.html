@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function circularCalculation(number) {
+        let area = Math.PI * number * number;
+        let perimeter = number * 2 * Math.PI;
+        return [area, perimeter];
+    }
+    let radius = parseInt(prompt("Nhập bán kính hình tròn:"));
+    let result = circularCalculation(radius);
+    document.write("Diện tích hình tròn là: " + result[0] + "<br>");
+    document.write("Chu vi hình tròn là: " + result[1] + "<br>");
+
+</script>
+</body>
+</html>
