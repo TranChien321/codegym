@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết hàm tính giai thừa (n!)-->
+<script>
+    function isFactorial(n) {
+        if (n === 0 || n === 1) {
+            return 1;
+        } else {
+            return n * isFactorial(n - 1);
+        }
+    }
+    let n = parseInt(prompt("Nhập một số nguyên dương:"));
+    if (n >= 0) {
+        let result = isFactorial(n);
+        document.write("Giai thừa của " + n + " là: " + result);
+    } else {
+        document.write("Vui lòng nhập một số nguyên dương.");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Viết hàm tính tổng từ 1 đến n-->
+<script>
+    function sumToN(n) {
+        let sum = 0;
+        for (let i = 1; i <= n; i++) {
+            sum += i;
+        }
+        return sum;
+    }
+
+    let n = parseInt(prompt("Nhập một số nguyên dương:"));
+    if (n > 0) {
+        let result = sumToN(n);
+        document.write("Tổng từ 1 đến " + n + " là: " + result);
+    } else {
+        document.write("Vui lòng nhập một số nguyên dương.");
+    }
+</script>
+</body>
+</html>
