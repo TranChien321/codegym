@@ -5,6 +5,19 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+    function isFactorial(n) {
+        if (n === 0 || n === 1) {
+            return 1;
+        } else {
+            return n * isFactorial(n - 1);
+        }
+    }
 
+    let number = parseInt(prompt("Nhập một số nguyên dương:"));
+    let result = isFactorial(number);
+    document.write("Giai thừa của " + number + " là: " + result);
+
+</script>
 </body>
 </html>
