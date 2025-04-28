@@ -5,14 +5,16 @@
     <title>Title</title>
 </head>
 <body>
-
+<!--Tính tổng trong 1 mảng-->
 <script>
-    let sum =0;
-    for ( let i=1 ; i <= 5 ; i++ ) {
-        sum+= i;
-        debugger
-    } console.log(sum);
-
+    function sumArray(ar) {
+        let sum = 0;
+        for (let i = 0; i < ar.length; i++) {
+            sum += ar[i];
+        }
+        return sum;
+    }
 </script>
+
 </body>
 </html>
