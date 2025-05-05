@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra mảng số nguyên tố</title>
+</head>
+<body>
+<script>
+    function checkArray(arr) {
+        return arr.every(num => {
+            if (num <= 1) return false;
+            for (let i = 2; i <= Math.sqrt(num); i++) {
+                if (num % i === 0) return false;
+            }
+            return true;
+        });
+    }
+
+
+</script>
+</body>
+</html>
