@@ -38,7 +38,7 @@ function editStudent(index) {
     let className = prompt("Nhập tên lớp học", listStudent[index][4]);
     let image = prompt("Nhập đường dẫn ảnh", listStudent[index][5]);
 
-    if (id ===""|| name === "" || date === "" || gender === "" || className === "") {
+    if (id === "" || name === "" || date === "" || gender === "" || className === "") {
         alert("Không được để trống thông tin");
         return;
     }
@@ -65,9 +65,16 @@ function addStudent() {
     let date = document.getElementById("date").value;
     let gender = document.getElementById("gender").value;
     let className = document.getElementById("className").value;
-    let image = document.getElementById("image").value;
+    let fileInput = document.getElementById("image");
 
-    if (id === "" || name === "" || date === "" || gender === "" || className === "" || image === "") {
+    if (!fileInput.files[0]) {
+        alert("Vui lòng chọn ảnh.");
+        return;
+    }
+
+    let image = URL.createObjectURL(fileInput.files[0]);
+
+    if (id === "" || name === "" || date === "" || gender === "" || className === "") {
         alert("Không được để trống thông tin");
         return;
     }
@@ -81,13 +88,8 @@ function addStudent() {
         alert("Ngày sinh phải đúng định dạng dd/MM/yyyy");
         return;
     }
-    if (!/^https?:\/\/.+\.(jpg|jpeg|png|webp)$/.test(image) && !/^images\/.+\.(jpg|jpeg|png|webp)$/.test(image)) {
-        alert("Đường dẫn ảnh không đúng định dạng hợp lệ");
-        return;
-    }
 
     listStudent.push([id, name, date, gender, className, image]);
     alert("Thêm thông tin thành công");
     showStudentList();
 }
-
