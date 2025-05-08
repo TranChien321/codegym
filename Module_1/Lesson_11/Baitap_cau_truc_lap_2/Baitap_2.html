@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Tính giai thừa của một số nguyên dương-->
+<script>
+  let n = parseInt(prompt("Enter a number"));
+  if ( n < 0){
+    alert(" Giai thừa không tồn tại với số âm")
+  } else {
+    let result = 1;
+    for (let i = 1; i <= n; i++) {
+        result *= i;
+    }
+    alert("Giai thừa của " + n + " là: " + result);
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Viết hàm kiểm tra số nhỏ nhất
+    function findMin(a, b, c) {
+        if (a < b && a < c) {
+            return a;
+        } else if (b < a && b < c) {
+            return b;
+        } else {
+            return c;
+        }
+    }
+    let num1 = parseFloat(prompt("Nhập số thứ nhất:"));
+    let num2 = parseFloat(prompt("Nhập số thứ hai:"));
+    let num3 = parseFloat(prompt("Nhập số thứ ba:"));
+    let result = findMin(num1, num2, num3);
+    document.write("Số nhỏ nhất là: " + result);
+
+</script>
+</body>
+</html>

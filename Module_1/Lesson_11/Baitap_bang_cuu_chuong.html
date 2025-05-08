@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    const body = document.body;
+    const table = document.createElement('table');
+    table.style.borderCollapse = 'collapse';
+
+    for (let i = 1; i <= 9; i++) {
+        const row = document.createElement('tr');
+        for (let x = 1; x <= 9; x++) {
+            const cell = document.createElement('td');
+            cell.textContent = `${x} x ${i} = ${x * i}`;
+            cell.style.border = '1px solid black';
+            cell.style.padding = '5px';
+            row.appendChild(cell);
+        }
+        table.appendChild(row);
+    }
+
+    body.appendChild(table);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function swapNumbers(a, b) {
+        return [b, a];
+    }
+    let num1 = parseFloat(prompt("Nhập số thứ nhất:"));
+    let num2 = parseFloat(prompt("Nhập số thứ hai:"));
+    let result = swapNumbers(num1, num2);
+    document.write("Số thứ nhất sau khi hoán đổi là: " + result[0] + "<br>");
+    document.write("Số thứ hai sau khi hoán đổi là: " + result[1]);
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Kiểm tra cặp phần tử liên kề</title>
+</head>
+<body>
+<script>
+    function checkAdjacentPairs(arr) {
+        for (let i = 0; i < arr.length - 1; i += 2) {
+            if (arr[i] >= arr[i + 1]) {
+                return "NO";
+            }
+        }
+        return "OK";
+    }
+</script>
+
+</body>
+</html>

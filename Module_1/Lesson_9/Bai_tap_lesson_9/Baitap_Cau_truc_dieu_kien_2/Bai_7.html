@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phương trình bậc 2</title>
+</head>
+<body>
+<!--Phương trình bậc 2-->
+Phương trình bậc 2: ax^2 + b + c = 0
+<br>
+Nhập giá trị a:
+<input type="number" id="a">
+<br>
+<br>
+Nhập giá trị b:
+<input type="number" id="b">
+<br>
+<br>
+Nhập giá trị c:
+<input type="number" id="c">
+<br>
+<button type="button" onclick="myFunction()"> Kết quả </button>
+<p id="result"> Hiển thị kết quả ở đây:</p>
+
+<script>
+    function myFunction() {
+        let a = document.getElementById("a").value;
+        let b = document.getElementById("b").value;
+        let c = document.getElementById("c").value;
+        let delta= b*b - 4*a*c;
+        console.log(delta);
+        let x1= (-(b) + Math.sqrt(delta)) / 2*a;
+        console.log(x1);
+        let x2 = (-(b) - Math.sqrt(delta)) / 2*a;
+        console.log(x2);
+        let x = -(b)/2*a;
+
+        if (delta > 0) {
+            document.getElementById("result").innerHTML="Phương trình có 2 nghiệm " + "x1 =" + x1 + "," + "x2 =" + x2;
+        } else if (delta == 0) {
+            document.getElementById("result").innerHTML="Phương trình có 1 nghiệm x=" + x;
+        } else {
+            document.getElementById("result").innerHTML="Phương trình vô nghiệm";
+        }
+    }
+</script>
+</body>
+</html>

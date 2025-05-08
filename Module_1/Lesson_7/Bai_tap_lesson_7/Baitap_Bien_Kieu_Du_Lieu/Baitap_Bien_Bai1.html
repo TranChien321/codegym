@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính điểm trung bình và tổng điểm</title>
+</head>
+<body>
+<!--Tính điểm trung bình và tổng điểm-->
+<script>
+        let scoreMaths = +prompt("Nhập điểm môn Toán");
+        let scorePhysics = +prompt("Nhập điểm môn Vật Lý");
+        let scoreCheistry = +prompt("Nhập điểm môn Hoá");
+        let averageScore = (scoreMaths + scorePhysics + scoreCheistry)/3;
+        let totalScore = scoreMaths + scoreCheistry + scorePhysics;
+
+        document.write("averageScore=" + [scoreMaths + scorePhysics + scoreCheistry]/3);
+        document.write("<br>");
+        document.write("totalScore=" + totalScore  + "<br>");
+</script>
+</body>
+</html>

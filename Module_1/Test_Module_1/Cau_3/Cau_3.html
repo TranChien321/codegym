@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản Lý Sách </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+    <table>
+        <h1> QUẢN LÝ SÁCH </h1>
+        <hr>
+        <h3> Hệ Thống Quản Lý Sách </h3>
+        <button type="button" onclick="addBook()">Thêm sách đã có</button>
+        <button type="button" onclick="addBookNew()">Thêm sách mới</button>
+        <button type="button" onclick="deleteBook()">Xóa sách</button>
+        <button type="button" onclick="borrowBooks()">Mượn sách</button>
+        <button type="button" onclick="showMostBooks()">Hiển thị sách nhiều nhất</button>
+        <hr>
+
+        <h3> Danh Sách Sách </h3>
+
+        <thead>
+
+        <tr>
+            <th> Mã số sách</th>
+            <th> Tên sách</th>
+            <th> Nhà xuất bản</th>
+            <th> Số quyển</th>
+            <th> Tình trạng</th>
+        </tr>
+
+        </thead>
+
+        <tbody id="container-book"></tbody>
+    </table>
+</form>
+<script src="my_3.js"></script>
+</body>
+</html>

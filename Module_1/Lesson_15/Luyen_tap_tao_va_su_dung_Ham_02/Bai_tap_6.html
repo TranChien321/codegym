@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkNumber(num) {
+        if ( num >= 0 ) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    let number = parseInt(prompt("Nhập vào đây để kiểm tra"));
+    let result = checkNumber(number);
+    if ( result ){
+        document.write(" Số bạn nhập là: " +  number +" là 1 số nguyên dương. ");
+} else {
+        document.write(" Số bạn nhập là: " +  number +" là 1 số nguyên âm. ");
+    }
+</script>
+</body>
+</html>

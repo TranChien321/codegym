@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function footToMeter(foot) {
+    return 0.3048 * foot;
+  }
+  function meterToFoot(meter) {
+    return 3.28084 * meter;
+  }
+  let foot = parseFloat(prompt("Nhập chiều dài (foot):"));
+  let meter = parseFloat(prompt("Nhập chiều dài (meter):"));
+    if (isNaN(foot) || isNaN(meter)) {
+        alert("Vui lòng nhập số hợp lệ.");
+    } else {
+        document.write(foot + " foot = " + footToMeter(foot) + " m <br>");
+        document.write(meter + " meter = " + meterToFoot(meter) + " foot");
+    }
+</script>
+</body>
+</html>

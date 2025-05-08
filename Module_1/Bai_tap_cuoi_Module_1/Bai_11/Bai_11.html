@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hệ thống quản lý học viên</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<form>
+    <table>
+        <h1> Hệ thống quản lý học viên</h1>
+        <button type="button" onclick="addStudent()">Thêm mới học viên</button>
+        <button type="button" onclick="deleteStudent()">Xóa học viên</button>
+        <button type="button" onclick="editStudent()">Chỉnh sửa học viên</button>
+        <h3>Danh sách học viên</h3>
+
+        <thead>
+        <tr>
+            <th>Mã học viên</th>
+            <th>Tên</th>
+            <th>Lớp</th>
+            <th>Email</th>
+            <th>Ngày sinh</th>
+        </tr>
+
+        </thead>
+
+        <tbody id="container-student"> </tbody>
+    </table>
+</form>
+<script src="my11.js"></script>
+</body>
+</html>

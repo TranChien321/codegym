@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây dựng lớp mô tả điện thoại</title>
+</head>
+<body>
+<script>
+  function  mobilePhone(bettry, inbox, sendmessage,writemessage ) {
+    this.battery = bettry;
+    this.inbox = inbox;
+    this.sendmessage = sendmessage;
+    this.writemessage = writemessage;
+
+    this.display = function () {
+        document.write(`Battery: ${this.battery}`, '<br>');
+        document.write(`Inbox: ${this.inbox}`, '<br>');
+        document.write(`Send Message: ${this.sendmessage}`, '<br>');
+        document.write(`Write Message: ${this.writemessage}`, '<br>');
+    }
+  }
+  let iphone = new mobilePhone(100, 20, 10, 5);
+  let samsung = new mobilePhone(80, 15, 8, 3);
+    iphone.display();
+    samsung.display();
+</script>
+
+</body>
+</html>
