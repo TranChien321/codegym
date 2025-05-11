@@ -42,12 +42,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Bai_1.executor": "Run",
+    "Application.Bai_2.executor": "Run",
+    "Application.Bai_3.executor": "Run",
+    "Application.Bai_4.executor": "Run",
+    "Application.Bai_5.executor": "Run",
     "Application.Bai_CurrencyConverterApp.executor": "Run",
     "Application.Bai_ShowQuote.executor": "Run",
     "Application.BodyMassIndex.executor": "Run",
     "Application.DayOfMonth.executor": "Run",
+    "Application.DisplayGeometry.executor": "Run",
+    "Application.DisplayPrime.executor": "Run",
+    "Application.DisplayPrime2.executor": "Run",
+    "Application.Geometry.executor": "Run",
+    "Application.GreatestCommonFactor.executor": "Run",
+    "Application.Interest.executor": "Run",
     "Application.LeapYearCalculator.executor": "Run",
     "Application.LinearEquationResolver.executor": "Run",
+    "Application.Prime.executor": "Run",
+    "Application.ReadNumber.executor": "Run",
     "Application.Rectangle.executor": "Run",
     "Application.SystemTime.executor": "Run",
     "Application.VariableDataType.executor": "Run",
@@ -84,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746688836733</updated>
-      <workItem from="1746688837849" duration="2707000" />
+      <workItem from="1746688837849" duration="13351000" />
     </task>
     <servers />
   </component>
