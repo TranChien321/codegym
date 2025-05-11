@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="" />
+    <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,10 +45,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Bai_1.executor": "Run",
+    "Application.Bai_10.executor": "Run",
+    "Application.Bai_11.executor": "Run",
+    "Application.Bai_12.executor": "Run",
+    "Application.Bai_13.executor": "Run",
+    "Application.Bai_14.executor": "Run",
     "Application.Bai_2.executor": "Run",
     "Application.Bai_3.executor": "Run",
     "Application.Bai_4.executor": "Run",
     "Application.Bai_5.executor": "Run",
+    "Application.Bai_6.executor": "Run",
+    "Application.Bai_7.executor": "Run",
+    "Application.Bai_8.executor": "Run",
+    "Application.Bai_9.executor": "Run",
     "Application.Bai_CurrencyConverterApp.executor": "Run",
     "Application.Bai_ShowQuote.executor": "Run",
     "Application.BodyMassIndex.executor": "Run",
@@ -74,6 +85,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,10 +110,15 @@
       <option name="presentableId" value="Default" />
       <updated>1746688836733</updated>
       <workItem from="1746688837849" duration="13351000" />
+      <workItem from="1746933955057" duration="1607000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
