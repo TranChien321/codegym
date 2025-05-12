@@ -48,6 +48,7 @@ public class DisplayGeometry {
                     System.out.println("   * * * *   ");
                     System.out.println("  * * * * *  ");
                     System.out.println(" * * * * * * ");
+                    break;
                 case 0:
                     System.exit(0);
                 default:
