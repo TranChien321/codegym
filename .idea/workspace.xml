@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/Lesson_4/TestRectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +65,8 @@
     "Application.Interest.executor": "Run",
     "Application.LeapYearCalculator.executor": "Run",
     "Application.LinearEquationResolver.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main_QuadraticEquation.executor": "Run",
     "Application.MergeArrays.executor": "Run",
     "Application.NumberArray.executor": "Run",
     "Application.NumberArraySmall.executor": "Run",
@@ -75,6 +78,8 @@
     "Application.SmallestValueInArray.executor": "Run",
     "Application.StudentArray.executor": "Run",
     "Application.SystemTime.executor": "Run",
+    "Application.TestCar.executor": "Run",
+    "Application.TestStopWatch.executor": "Run",
     "Application.VariableDataType.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -114,7 +119,7 @@
       <workItem from="1747044226177" duration="48000" />
       <workItem from="1747044291873" duration="35000" />
       <workItem from="1747044344151" duration="1322000" />
-      <workItem from="1747098427146" duration="5739000" />
+      <workItem from="1747098427146" duration="10185000" />
     </task>
     <servers />
   </component>

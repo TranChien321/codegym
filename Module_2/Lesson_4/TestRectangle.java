@@ -2,7 +2,7 @@ package Lesson_4;
 
 import java.util.Scanner;
 
-public class Main {
+public class TestRectangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter rectangle width: ");
