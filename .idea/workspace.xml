@@ -44,6 +44,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AddElementToArray.executor": "Run",
     "Application.Bai_1.executor": "Run",
     "Application.Bai_2.executor": "Run",
     "Application.Bai_3.executor": "Run",
@@ -62,12 +63,15 @@
     "Application.Interest.executor": "Run",
     "Application.LeapYearCalculator.executor": "Run",
     "Application.LinearEquationResolver.executor": "Run",
+    "Application.MergeArrays.executor": "Run",
     "Application.NumberArray.executor": "Run",
     "Application.NumberArraySmall.executor": "Run",
     "Application.Prime.executor": "Run",
     "Application.ReadNumber.executor": "Run",
     "Application.Rectangle.executor": "Run",
+    "Application.RemoveElementFromArray.executor": "Run",
     "Application.ReverseArray.executor": "Run",
+    "Application.SmallestValueInArray.executor": "Run",
     "Application.StudentArray.executor": "Run",
     "Application.SystemTime.executor": "Run",
     "Application.VariableDataType.executor": "Run",
@@ -109,6 +113,7 @@
       <workItem from="1747044226177" duration="48000" />
       <workItem from="1747044291873" duration="35000" />
       <workItem from="1747044344151" duration="1322000" />
+      <workItem from="1747098427146" duration="3370000" />
     </task>
     <servers />
   </component>
