@@ -81,8 +81,10 @@
     "Application.StudentArray.executor": "Run",
     "Application.SystemTime.executor": "Run",
     "Application.TestCar.executor": "Run",
+    "Application.TestCircle.executor": "Run",
     "Application.TestFan.executor": "Run",
     "Application.TestStopWatch.executor": "Run",
+    "Application.TestStudent.executor": "Run",
     "Application.VariableDataType.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -122,11 +124,22 @@
       <workItem from="1747044226177" duration="48000" />
       <workItem from="1747044291873" duration="35000" />
       <workItem from="1747044344151" duration="1322000" />
-      <workItem from="1747098427146" duration="14031000" />
+      <workItem from="1747098427146" duration="18156000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
