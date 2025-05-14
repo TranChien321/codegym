@@ -1,20 +1,21 @@
-package Lesson_5;
+package Lesson_5.student;
 
-public class StudentClass {
+public class Student {
     private String name = "Jone";
     private String classes = "C001";
 
-    public StudentClass(){}
+    public Student() {
+    }
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
-    public void setClasses(String classes){
+    public void setClasses(String classes) {
         this.classes = classes;
     }
 
-    public String StudentDisplay(){
+    public String studentDisplay() {
         return "Student Name: " + name + ", Class: " + classes;
     }
 }

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_5/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/Lesson_5/Circle.java" afterDir="false" />
-    </list>
+    <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +123,7 @@
       <workItem from="1747044226177" duration="48000" />
       <workItem from="1747044291873" duration="35000" />
       <workItem from="1747044344151" duration="1322000" />
-      <workItem from="1747098427146" duration="19019000" />
+      <workItem from="1747098427146" duration="19299000" />
     </task>
     <servers />
   </component>
