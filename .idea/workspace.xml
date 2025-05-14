@@ -47,6 +47,9 @@
     "Application.AddElementToArray.executor": "Run",
     "Application.ArgestElementTwoArray.executor": "Run",
     "Application.Bai_1.executor": "Run",
+    "Application.Bai_15.executor": "Run",
+    "Application.Bai_16.executor": "Run",
+    "Application.Bai_17.executor": "Run",
     "Application.Bai_2.executor": "Run",
     "Application.Bai_3.executor": "Run",
     "Application.Bai_4.executor": "Run",
@@ -119,7 +122,7 @@
       <workItem from="1747044226177" duration="48000" />
       <workItem from="1747044291873" duration="35000" />
       <workItem from="1747044344151" duration="1322000" />
-      <workItem from="1747098427146" duration="12160000" />
+      <workItem from="1747098427146" duration="14031000" />
     </task>
     <servers />
   </component>
