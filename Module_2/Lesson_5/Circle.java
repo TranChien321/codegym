@@ -2,7 +2,7 @@ package Lesson_5;
 
 public class Circle {
     private double radius = 1.0;
-    private String color = "red";
+    private final String color = "red";
 
     public Circle() {
 
@@ -18,5 +18,9 @@ public class Circle {
 
     public double getArea() {
         return Math.PI * radius * radius;
+    }
+
+    public String getColor() {
+        return color;
     }
 }
