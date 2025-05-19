@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_6/Point2D_Point3D/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_6/Point2D_Point3D/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_6/Point2D_Point3D/Point3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_6/Point_MoveablePoint/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_6/Point_MoveablePoint/MoveablePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_6/Point_MoveablePoint/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_7/CircleComparator/CircleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_7/CircleComparator/CircleComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_7/Resizeable/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_7/Resizeable/Resizeable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_6/CircleCylinder/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/Lesson_6/Circle_Cylinder/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_6/CircleCylinder/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/Lesson_6/Circle_Cylinder/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_6/CircleCylinder/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/Lesson_6/Circle_Cylinder/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_6/CircleCylinder/UML" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/Lesson_6/Circle_Cylinder/UML" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +61,7 @@
     "Application.Bai_CurrencyConverterApp.executor": "Run",
     "Application.Bai_ShowQuote.executor": "Run",
     "Application.BodyMassIndex.executor": "Run",
+    "Application.CircleComparatorTest.executor": "Run",
     "Application.ConvertTemperature.executor": "Run",
     "Application.DayOfMonth.executor": "Run",
     "Application.Demo.executor": "Run",
@@ -147,7 +142,7 @@
       <workItem from="1747044344151" duration="1322000" />
       <workItem from="1747098427146" duration="20353000" />
       <workItem from="1747290941275" duration="2227000" />
-      <workItem from="1747361942568" duration="9174000" />
+      <workItem from="1747361942568" duration="12492000" />
     </task>
     <servers />
   </component>
