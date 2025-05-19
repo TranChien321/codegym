@@ -1,4 +1,4 @@
-package Lesson_6.Circle;
+package Lesson_6.ThucHanh.Circle;
 
 public class TestCircle {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Lesson_6.Shape;
+package Lesson_6.ThucHanh.Shape;
 
 public class TestShape {
     public static void main(String[] args) {

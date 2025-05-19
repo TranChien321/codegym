@@ -1,0 +1,15 @@
++----------------+                                   +----------------+
+|     Circle     |                                   |    Cylinder    |
++----------------+                                   +----------------+
+| - radius: double |                                 | - height: double |
+| - color: String  |                                 +----------------+
++----------------+                                   | + getVolume(): double |
+| + Circle()     |                                   | + toString(): String  |
+| + Circle(radius: double, color: String)            | + getHeight(): double |
+| + getRadius(): double |                            | + setHeight(double): void |
+| + setRadius(double): void |                        +----------------+
+| + getColor(): String |
+| + setColor(String): void |
+| + getArea(): double  |
+| + toString(): String |
++----------------+

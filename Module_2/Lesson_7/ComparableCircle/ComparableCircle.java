@@ -1,6 +1,6 @@
 package Lesson_7.ComparableCircle;
 
-import Lesson_6.Circle.Circle;
+import Lesson_6.ThucHanh.Circle.Circle;
 
 public class ComparableCircle extends Circle
         implements Comparable<ComparableCircle> {

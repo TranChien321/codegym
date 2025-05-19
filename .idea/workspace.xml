@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_6/Circle/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_7/Animal/TestAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_6/CircleCylinder/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_6/CircleCylinder/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_6/CircleCylinder/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_6/Rectangle/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_6/Rectangle/TestRectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,10 +88,13 @@
     "Application.TestAnimal.executor": "Run",
     "Application.TestCar.executor": "Run",
     "Application.TestCircle.executor": "Run",
+    "Application.TestComparableCircle.executor": "Run",
     "Application.TestCustomer.executor": "Run",
     "Application.TestEmployee.executor": "Run",
     "Application.TestFan.executor": "Run",
+    "Application.TestRectangle.executor": "Run",
     "Application.TestShape.executor": "Run",
+    "Application.TestSquare.executor": "Run",
     "Application.TestStopWatch.executor": "Run",
     "Application.TestStudent.executor": "Run",
     "Application.TestStudentClass.executor": "Run",
@@ -134,7 +139,7 @@
       <workItem from="1747044344151" duration="1322000" />
       <workItem from="1747098427146" duration="20353000" />
       <workItem from="1747290941275" duration="2227000" />
-      <workItem from="1747361942568" duration="3125000" />
+      <workItem from="1747361942568" duration="6013000" />
     </task>
     <servers />
   </component>

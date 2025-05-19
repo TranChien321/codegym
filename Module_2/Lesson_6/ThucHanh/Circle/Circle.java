@@ -1,6 +1,6 @@
-package Lesson_6.Circle;
+package Lesson_6.ThucHanh.Circle;
 
-import Lesson_6.Shape.Shape;
+import Lesson_6.ThucHanh.Shape.Shape;
 
 public class Circle extends Shape {
     private double radius = 1.0;
