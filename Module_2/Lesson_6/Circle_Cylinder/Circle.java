@@ -1,4 +1,4 @@
-package Lesson_6.CircleCylinder;
+package Lesson_6.Circle_Cylinder;
 
 // Lớp Circle
 public class Circle {

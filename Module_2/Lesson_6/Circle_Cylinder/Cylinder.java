@@ -1,4 +1,4 @@
-package Lesson_6.CircleCylinder;
+package Lesson_6.Circle_Cylinder;
 
 public class Cylinder extends Circle {
     private double height;

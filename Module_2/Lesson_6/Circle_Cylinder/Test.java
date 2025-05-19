@@ -1,4 +1,4 @@
-package Lesson_6.CircleCylinder;
+package Lesson_6.Circle_Cylinder;
 
 public class Test {
     public static void main(String[] args) {
