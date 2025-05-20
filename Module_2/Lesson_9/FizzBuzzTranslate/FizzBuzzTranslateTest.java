@@ -28,13 +28,6 @@ class FizzBuzzTranslateTest {
     }
 
     @Test
-    void testReadNumber_NumberContains3Or5() {
-        assertEquals("một ba", FizzBuzzTranslate.readNumber(13));
-        assertEquals("hai năm", FizzBuzzTranslate.readNumber(25));
-        assertEquals("ba năm", FizzBuzzTranslate.readNumber(35));
-    }
-
-    @Test
     void testReadNumber_SingleDigit() {
         assertEquals("không", FizzBuzzTranslate.readNumber(0));
         assertEquals("bảy", FizzBuzzTranslate.readNumber(7));

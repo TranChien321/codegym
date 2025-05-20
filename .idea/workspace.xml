@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_9/AbsoluteNumberCalculator/AbsoluteNumberCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_9/AbsoluteNumberCalculator/AbsoluteNumberCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_9/FizzBuzzTranslate/FizzBuzzTranslateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_9/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_9/NextDayCalculator/NextDayCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_9/NextDayCalculator/NextDayCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_9/TriangleClassifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_9/TriangleClassifierTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeGym-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeGym-Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_8/apj-2023-calculator" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_8/apj-2023-fizzbuzz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_8/apj-tennis-game" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apj-2023-junit-calculator/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apj-2023-junit-calculator/src/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/apj-2023-junit-calculator/src/SimpleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apj-2023-junit-calculator/src/SimpleCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/apj-2023-junit-calculator/src/SimpleCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apj-2023-junit-calculator" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +74,7 @@
     "Application.DisplayGeometry.executor": "Run",
     "Application.DisplayPrime.executor": "Run",
     "Application.DisplayPrime2.executor": "Run",
+    "Application.FizzBuzzTranslate.executor": "Run",
     "Application.Geometry.executor": "Run",
     "Application.GreatestCommonFactor.executor": "Run",
     "Application.Interest.executor": "Run",
@@ -280,7 +265,7 @@
       <workItem from="1747648616559" duration="2019000" />
       <workItem from="1747705148066" duration="1548000" />
       <workItem from="1747711091870" duration="4560000" />
-      <workItem from="1747722807239" duration="2673000" />
+      <workItem from="1747722807239" duration="3039000" />
     </task>
     <servers />
   </component>

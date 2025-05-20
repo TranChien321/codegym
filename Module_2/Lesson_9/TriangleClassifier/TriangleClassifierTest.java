@@ -1,4 +1,4 @@
-package Lesson_9;
+package Lesson_9.TriangleClassifier;
 
 import org.junit.jupiter.api.Test;
 

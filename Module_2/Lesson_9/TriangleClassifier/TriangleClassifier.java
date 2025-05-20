@@ -1,4 +1,4 @@
-package Lesson_9;
+package Lesson_9.TriangleClassifier;
 
 public class TriangleClassifier {
     public static String classify(double a, double b, double c) {

@@ -18,13 +18,13 @@ public class FizzBuzzTranslate {
         return readNumber(number);
     }
 
-    public static String readNumber(int n) {
+    public static String readNumber(int number) {
         String[] digits = {"không", "một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín"};
-        if (n < 10) {
-            return digits[n];
+        if (number < 10) {
+            return digits[number];
         }
-        int tens = n / 10;
-        int ones = n % 10;
+        int tens = number / 10;
+        int ones = number % 10;
         return digits[tens] + " " + digits[ones];
     }
 }
