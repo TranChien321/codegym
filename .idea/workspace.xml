@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeGym-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeGym-Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_8/apj-2023-calculator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_8/apj-2023-calculator/apj-2023-calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/Lesson_8/apj-2023-calculator/apj-2023-calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_8/apj-2023-calculator/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/Lesson_8/apj-2023-calculator/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_8/apj-2023-calculator/src/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/Lesson_8/apj-2023-calculator/src/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_8/apj-2023-fizzbuzz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_8/apj-2023-fizzbuzz/apj-2023-fizzbuzz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/Lesson_8/apj-2023-fizzbuzz/apj-2023-fizzbuzz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_8/apj-2023-fizzbuzz/src/FizzBuzz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_8/apj-tennis-game" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_8/apj-tennis-game/src/com/codegym/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/Lesson_8/apj-tennis-game/src/com/codegym/TennisGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/Lesson_8/apj-tennis-game/test/com/codegym/TennisGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/Lesson_8/apj-tennis-game/test/com/codegym/TennisGameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Module_2/Lesson_8/apj-tennis-game" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -34,6 +46,9 @@
     &quot;accountId&quot;: &quot;cdd85e2f-d10d-4c2e-8187-2e756364f2a0&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Security Analysis" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -97,11 +112,16 @@
     "Application.TestStudent.executor": "Run",
     "Application.TestStudentClass.executor": "Run",
     "Application.VariableDataType.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.FizzBuzzTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
     "last_opened_file_path": "/Users/mac/Documents/CodeGym-Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -140,7 +160,7 @@
       <workItem from="1747098427146" duration="20353000" />
       <workItem from="1747290941275" duration="2227000" />
       <workItem from="1747361942568" duration="13306000" />
-      <workItem from="1747648616559" duration="1492000" />
+      <workItem from="1747648616559" duration="2019000" />
     </task>
     <servers />
   </component>
