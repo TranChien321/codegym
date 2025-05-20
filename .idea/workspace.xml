@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_7/CircleComparator/CircleComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_7/CircleComparator/CircleComparatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_7/Resizeable/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_7/Resizeable/Resizeable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +102,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/mac/Documents/CodeGym-Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -142,7 +139,8 @@
       <workItem from="1747044344151" duration="1322000" />
       <workItem from="1747098427146" duration="20353000" />
       <workItem from="1747290941275" duration="2227000" />
-      <workItem from="1747361942568" duration="12492000" />
+      <workItem from="1747361942568" duration="13306000" />
+      <workItem from="1747648616559" duration="1492000" />
     </task>
     <servers />
   </component>
