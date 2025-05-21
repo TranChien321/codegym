@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/apj-2023-junit-calculator" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_10/MyList/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_10/MyList/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_10/TH_LinkedList/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_10/TH_LinkedList/TestMyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_10/TH_MyList/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_10/TH_MyList/MyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,7 +49,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -79,10 +86,12 @@
     "Application.GreatestCommonFactor.executor": "Run",
     "Application.Interest.executor": "Run",
     "Application.LeapYearCalculator.executor": "Run",
+    "Application.Lesson_10.MyList.MyListTest.executor": "Run",
     "Application.LinearEquationResolver.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main_QuadraticEquation.executor": "Run",
     "Application.MergeArrays.executor": "Run",
+    "Application.MyListTest.executor": "Run",
     "Application.NumberArray.executor": "Run",
     "Application.NumberArraySmall.executor": "Run",
     "Application.Prime.executor": "Run",
@@ -101,6 +110,7 @@
     "Application.TestCustomer.executor": "Run",
     "Application.TestEmployee.executor": "Run",
     "Application.TestFan.executor": "Run",
+    "Application.TestMyLinkedList.executor": "Run",
     "Application.TestRectangle.executor": "Run",
     "Application.TestShape.executor": "Run",
     "Application.TestSquare.executor": "Run",
@@ -134,7 +144,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -157,13 +167,52 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTranslateTest">
+  <component name="RunManager" selected="Application.Lesson_10.MyList.MyListTest">
     <configuration name="FizzBuzzTranslate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_9.FizzBuzzTranslate.FizzBuzzTranslate" />
       <module name="CodeGym-Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson_9.FizzBuzzTranslate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson_10.MyList.MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_10.MyList.MyListTest" />
+      <module name="CodeGym-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_10.MyList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_10.TH_MyList.MyListTest" />
+      <module name="CodeGym-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_10.TH_MyList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_10.TH_LinkedList.TestMyLinkedList" />
+      <module name="CodeGym-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_10.TH_LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,57 +235,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson_9.AbsoluteNumberCalculator in CodeGym-Java" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeGym-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_9.AbsoluteNumberCalculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson_9.AbsoluteNumberCalculator" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NextDayCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeGym-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_9.NextDayCalculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson_9.NextDayCalculator" />
-      <option name="MAIN_CLASS_NAME" value="Lesson_9.NextDayCalculator.NextDayCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriangleClassifierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeGym-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson_9" />
-      <option name="MAIN_CLASS_NAME" value="Lesson_9.TriangleClassifierTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson_10.MyList.MyListTest" />
+        <item itemvalue="Application.TestMyLinkedList" />
+        <item itemvalue="Application.MyListTest" />
         <item itemvalue="JUnit.FizzBuzzTranslateTest" />
         <item itemvalue="Application.FizzBuzzTranslate" />
-        <item itemvalue="JUnit.TriangleClassifierTest" />
-        <item itemvalue="JUnit.NextDayCalculatorTest" />
-        <item itemvalue="JUnit.Lesson_9.AbsoluteNumberCalculator in CodeGym-Java" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +270,9 @@
       <workItem from="1747648616559" duration="2019000" />
       <workItem from="1747705148066" duration="1548000" />
       <workItem from="1747711091870" duration="4560000" />
-      <workItem from="1747722807239" duration="3039000" />
+      <workItem from="1747722807239" duration="4716000" />
+      <workItem from="1747732524731" duration="5964000" />
+      <workItem from="1747810405395" duration="6874000" />
     </task>
     <servers />
   </component>
@@ -282,5 +289,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
