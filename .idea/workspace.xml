@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_10/LinkedList/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_10/LinkedList/MyLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/Bai_1/ReverseArrayUsingStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/Bai_1/ReverseStringUsingStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/Bai_2/CountWordsByMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/MyGenericStack/GenericStackClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/MyGenericStack/MyGenericStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/MyLinkedListQueue/LinkedListQueueClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/MyLinkedListQueue/MyLinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/MyQueue/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/MyQueue/MyQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/MyStack/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/MyStack/StackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_13/LongestString/LongestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_13/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_13/TH/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_13/TH/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeGym-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeGym-Java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +93,13 @@
     "Application.Lesson_10.MyList.MyListTest.executor": "Run",
     "Application.LinearEquationResolver.executor": "Run",
     "Application.LinkedListQueueClient.executor": "Run",
+    "Application.LongestString.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main_QuadraticEquation.executor": "Run",
     "Application.MergeArrays.executor": "Run",
     "Application.MyLinkedListTest.executor": "Run",
     "Application.MyListTest.executor": "Run",
+    "Application.MyQueueTest.executor": "Run",
     "Application.NumberArray.executor": "Run",
     "Application.NumberArraySmall.executor": "Run",
     "Application.Prime.executor": "Run",
@@ -108,6 +110,7 @@
     "Application.ReverseArrayUsingStack.executor": "Run",
     "Application.ReverseStringUsingStack.executor": "Run",
     "Application.SmallestValueInArray.executor": "Run",
+    "Application.StackClient.executor": "Run",
     "Application.StudentArray.executor": "Run",
     "Application.SystemTime.executor": "Run",
     "Application.Test.executor": "Run",
@@ -280,7 +283,7 @@
       <workItem from="1747711091870" duration="4560000" />
       <workItem from="1747722807239" duration="4716000" />
       <workItem from="1747732524731" duration="5964000" />
-      <workItem from="1747810405395" duration="17726000" />
+      <workItem from="1747810405395" duration="24988000" />
     </task>
     <servers />
   </component>
