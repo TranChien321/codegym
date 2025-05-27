@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/MyQueue/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/MyQueue/MyQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/MyStack/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_11/MyStack/StackClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_13/LongestString/LongestString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_13/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_13/TH/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_13/TH/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/ProductManager/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/ProductManager/ProductManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/TH/Student_1/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/TH/Student_1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/TH/Student_2/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/TH/Student_2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/TH/TestMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_14/BT_1/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_14/BT_2/insertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_14/TH/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_14/TH/BubbleSortByStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_14/TH/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeGym-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodeGym-Java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -76,6 +81,8 @@
     "Application.Bai_CurrencyConverterApp.executor": "Run",
     "Application.Bai_ShowQuote.executor": "Run",
     "Application.BodyMassIndex.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
+    "Application.BubbleSortByStep.executor": "Run",
     "Application.CircleComparatorTest.executor": "Run",
     "Application.ConvertTemperature.executor": "Run",
     "Application.CountWordsByMap.executor": "Run",
@@ -88,6 +95,7 @@
     "Application.GenericStackClient.executor": "Run",
     "Application.Geometry.executor": "Run",
     "Application.GreatestCommonFactor.executor": "Run",
+    "Application.InsertionSort.executor": "Run",
     "Application.Interest.executor": "Run",
     "Application.LeapYearCalculator.executor": "Run",
     "Application.Lesson_10.MyList.MyListTest.executor": "Run",
@@ -109,6 +117,7 @@
     "Application.ReverseArray.executor": "Run",
     "Application.ReverseArrayUsingStack.executor": "Run",
     "Application.ReverseStringUsingStack.executor": "Run",
+    "Application.SelectionSort.executor": "Run",
     "Application.SmallestValueInArray.executor": "Run",
     "Application.StackClient.executor": "Run",
     "Application.StudentArray.executor": "Run",
@@ -121,6 +130,7 @@
     "Application.TestCustomer.executor": "Run",
     "Application.TestEmployee.executor": "Run",
     "Application.TestFan.executor": "Run",
+    "Application.TestMap.executor": "Run",
     "Application.TestMyLinkedList.executor": "Run",
     "Application.TestRectangle.executor": "Run",
     "Application.TestShape.executor": "Run",
@@ -129,6 +139,8 @@
     "Application.TestStudent.executor": "Run",
     "Application.TestStudentClass.executor": "Run",
     "Application.VariableDataType.executor": "Run",
+    "Application.insertionSort.executor": "Run",
+    "Application.insertionSort_2.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.FizzBuzzTest.executor": "Run",
     "JUnit.FizzBuzzTranslateTest.executor": "Run",
@@ -284,6 +296,7 @@
       <workItem from="1747722807239" duration="4716000" />
       <workItem from="1747732524731" duration="5964000" />
       <workItem from="1747810405395" duration="24988000" />
+      <workItem from="1748309474845" duration="8873000" />
     </task>
     <servers />
   </component>
