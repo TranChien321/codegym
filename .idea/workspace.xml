@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/ProductManager/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/ProductManager/ProductManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/TH/Student_1/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/TH/Student_1/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/TH/Student_2/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/TH/Student_2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/TH/TestMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_12/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_14/BT_1/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_14/BT_2/insertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_14/TH/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_14/TH/BubbleSortByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_14/TH/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_15/Array_Index_Out_Of_Bounds_Exception/ArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_15/Array_Index_Out_Of_Bounds_Exception/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_15/Debug/LinearEquationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_15/Illegal_Triangle_Exception/IllegalTriangleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_15/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_15/Number_Format_Exception/CalculationExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +76,7 @@
     "Application.BodyMassIndex.executor": "Run",
     "Application.BubbleSort.executor": "Run",
     "Application.BubbleSortByStep.executor": "Run",
+    "Application.CalculationExample.executor": "Run",
     "Application.CircleComparatorTest.executor": "Run",
     "Application.ConvertTemperature.executor": "Run",
     "Application.CountWordsByMap.executor": "Run",
@@ -99,7 +93,7 @@
     "Application.Interest.executor": "Run",
     "Application.LeapYearCalculator.executor": "Run",
     "Application.Lesson_10.MyList.MyListTest.executor": "Run",
-    "Application.LinearEquationResolver.executor": "Run",
+    "Application.LinearEquationResolver.executor": "Debug",
     "Application.LinkedListQueueClient.executor": "Run",
     "Application.LongestString.executor": "Run",
     "Application.Main.executor": "Run",
@@ -138,6 +132,7 @@
     "Application.TestStopWatch.executor": "Run",
     "Application.TestStudent.executor": "Run",
     "Application.TestStudentClass.executor": "Run",
+    "Application.TriangleChecker.executor": "Run",
     "Application.VariableDataType.executor": "Run",
     "Application.insertionSort.executor": "Run",
     "Application.insertionSort_2.executor": "Run",
@@ -167,7 +162,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -217,6 +212,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinearEquationResolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_15.Debug.LinearEquationResolver" />
+      <module name="CodeGym-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_15.Debug.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson_10.TH_MyList.MyListTest" />
       <module name="CodeGym-Java" />
@@ -243,28 +251,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTranslateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeGym-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_9.FizzBuzzTranslate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson_9.FizzBuzzTranslate" />
-      <option name="MAIN_CLASS_NAME" value="Lesson_9.FizzBuzzTranslate.FizzBuzzTranslateTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinearEquationResolver" />
         <item itemvalue="Application.GenericStackClient" />
         <item itemvalue="Application.Lesson_10.MyList.MyListTest" />
         <item itemvalue="Application.TestMyLinkedList" />
         <item itemvalue="Application.MyListTest" />
-        <item itemvalue="JUnit.FizzBuzzTranslateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +289,7 @@
       <workItem from="1747722807239" duration="4716000" />
       <workItem from="1747732524731" duration="5964000" />
       <workItem from="1747810405395" duration="24988000" />
-      <workItem from="1748309474845" duration="8873000" />
+      <workItem from="1748309474845" duration="13874000" />
     </task>
     <servers />
   </component>
@@ -313,6 +306,22 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Module_2/Lesson_15/Debug/LinearEquationResolver.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Module_2/Lesson_15/Debug/LinearEquationResolver.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
