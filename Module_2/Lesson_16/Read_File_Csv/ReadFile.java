@@ -1,7 +1,5 @@
 package Lesson_16.Read_File_Csv;
 
-import Lesson_16.Read_File_Example.ReadFileExample;
-
 import java.io.*;
 import java.util.Scanner;
 
