@@ -1,6 +1,7 @@
 package Lesson_17.Product;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Product implements Serializable{
@@ -87,11 +88,14 @@ public class Product implements Serializable{
     }
 //  Đọc
     public static List<Product> readProductFromFile(String Path) {
-        List<Product> products = null;
+        List<Product> products = new ArrayList<>();
         try {
             FileInputStream fis = new FileInputStream(Path);
             ObjectInputStream ois = new ObjectInputStream(fis);
-            products = (List<Product>) ois.readObject();
+            List<Product> productList = (List<Product>) ois.readObject();
+            if(productList != null && products.size() > 0){
+                products = productList;
+            }
             ois.close();
         } catch (IOException | ClassNotFoundException e) {
             System.out.println("Đọc danh sách thất bại!! ");
