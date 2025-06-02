@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_16/Copy_file_text/ReaderWriteFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_16/Read_File_Csv/ReadFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_16/Read_File_Example/ReadFileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_17/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_17/Product/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_17/Product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_17/Student/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_2/Lesson_17/Student/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +105,7 @@
     "Application.NumberArraySmall.executor": "Run",
     "Application.Prime.executor": "Run",
     "Application.ReadAndWriteFile.executor": "Run",
-    "Application.ReadFile.executor": "Debug",
+    "Application.ReadFile.executor": "Run",
     "Application.ReadFileExample.executor": "Run",
     "Application.ReadNumber.executor": "Run",
     "Application.ReaderWriteFile.executor": "Run",
@@ -292,7 +294,7 @@
       <workItem from="1747732524731" duration="5964000" />
       <workItem from="1747810405395" duration="24988000" />
       <workItem from="1748309474845" duration="16104000" />
-      <workItem from="1748417749777" duration="8394000" />
+      <workItem from="1748417749777" duration="16990000" />
     </task>
     <servers />
   </component>
@@ -309,17 +311,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Module_2/Lesson_16/Read_File_Csv/ReadFile.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
