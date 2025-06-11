@@ -1,4 +1,4 @@
-package CaseStudy;
+package Projectmini;
 
 import java.util.List;
 import java.util.ArrayList;

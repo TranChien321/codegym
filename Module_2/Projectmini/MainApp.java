@@ -1,6 +1,4 @@
-package CaseStudy;
-
-import CaseStudy.Product;
+package Projectmini;
 
 import java.util.List;
 import java.util.Scanner;
