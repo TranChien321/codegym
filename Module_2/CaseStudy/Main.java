@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner  scanner = new Scanner(System.in);
-        List<Contact> contacts = Contact.readContactFromFile("contact.txt");
+        List<Contact> contacts = Contact.readContactFromFile("contacts.txt");
         ContactManager contactManager = new ContactManager(contacts);
         System.out.println("======  QUẢN LÝ DANH BẠ  ======");
         System.out.println("1. Thêm liên hệ");

@@ -114,7 +114,7 @@ public class ContactManager {
     }
 
     /**
-     * Sắp xếp danh sách liên hệ theo tên.
+     * Sắp xếp danh sách liên hệ theo Alphabet (theo tên).
      */
     public void sortContacts() {
         contacts.sort((c1, c2) -> c1.getName().compareTo(c2.getName()));
