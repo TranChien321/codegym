@@ -1,6 +1,6 @@
 package CaseStudy.View;
 
-import CaseStudy.Controller.ContactManager;
+import CaseStudy.Manager.ContactManager;
 import CaseStudy.Model.Contact;
 
 import java.util.List;

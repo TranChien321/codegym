@@ -1,4 +1,4 @@
-package CaseStudy.Controller;
+package CaseStudy.Manager;
 
 import CaseStudy.Model.Contact;
 
