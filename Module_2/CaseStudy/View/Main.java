@@ -1,4 +1,7 @@
-package CaseStudy;
+package CaseStudy.View;
+
+import CaseStudy.Controller.ContactManager;
+import CaseStudy.Model.Contact;
 
 import java.util.List;
 import java.util.Scanner;

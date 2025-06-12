@@ -1,4 +1,4 @@
-package CaseStudy;
+package CaseStudy.Model;
 
 import java.io.*;
 import java.util.ArrayList;

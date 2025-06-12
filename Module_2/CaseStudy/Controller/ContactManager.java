@@ -1,4 +1,6 @@
-package CaseStudy;
+package CaseStudy.Controller;
+
+import CaseStudy.Model.Contact;
 
 import java.io.FileWriter;
 import java.io.IOException;
