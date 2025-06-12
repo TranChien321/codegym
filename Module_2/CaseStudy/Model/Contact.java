@@ -115,13 +115,13 @@ public class Contact implements Serializable {
 
     @Override
     public String toString() {
-        return "Contact{" +
-                "name='" + name + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", email='" + email + '\'' +
-                ", address='" + address + '\'' +
-                ", group='" + group + '\'' +
-                ", isFavorite=" + isFavorite +
-                '}';
+        return
+                " Tên: " + name + '\'' +
+                "| Số điện thoại: " + phoneNumber + '\'' +
+                "| Email: " + email + '\'' +
+                "| Địa chỉ: " + address + '\'' +
+                "| Nhóm: " + group + '\'' +
+                "| Yêu thích: " + isFavorite +
+                '\n';
     }
 }

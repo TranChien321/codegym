@@ -6,12 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ec30c279-5c4c-476b-baa8-40a85c0dce46" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_2/CaseStudy/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/CaseStudy/Model/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_2/CaseStudy/ContactManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/CaseStudy/Controller/ContactManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module_2/CaseStudy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/CaseStudy/View/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/CaseStudy/Data/contact.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/CaseStudy/Data/contacts.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/CaseStudy/Data/contacts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/CaseStudy/Data/contact.txt" beforeDir="false" afterPath="$PROJECT_DIR$/contact.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/CaseStudy/Data/contacts.csv" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/CaseStudy/Data/contacts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_2/CaseStudy/Model/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/Module_2/CaseStudy/Model/Contact.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +182,8 @@
       <recent name="Lesson_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Module_2/CaseStudy/Data" />
       <recent name="$PROJECT_DIR$/Module_2/CaseStudy" />
       <recent name="$PROJECT_DIR$/Module_2/Lesson_16" />
       <recent name="$PROJECT_DIR$/Module_2/Lesson_9" />
@@ -309,7 +309,7 @@
       <workItem from="1748944244636" duration="5354000" />
       <workItem from="1749097455865" duration="25659000" />
       <workItem from="1749463503018" duration="25029000" />
-      <workItem from="1749616684487" duration="16519000" />
+      <workItem from="1749616684487" duration="17935000" />
     </task>
     <servers />
   </component>
