@@ -1,4 +1,5 @@
 Name,PhoneNumber,Email,Address,Group,IsFavorite
-Bách,0912345678,bachpham@gmail.com,Vũ Thạch,Công việc,false
-Chiến,0966307975,tranchienn2307@gmail.com,Định Công,Gia đình,true
-Trần Trung,0987654321,trantrung@gmail.com,Mỹ Đình,Bạn bè,false
+Bách,0987655312,phambach@gmail.com,Hải Dương,Bạn bè,false
+Dũng ,0987333621,dungtran@gmail.com,Đà Nẵng,Công việc,false
+Dương,0912345678,duongnguyen@gmail.com,Nghệ an,Bạn bè,true
+Trung,0988172336,trantrung@gmail.com,Sài Gòn,Gia đình,true
